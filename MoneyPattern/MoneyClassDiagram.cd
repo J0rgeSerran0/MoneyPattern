@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Demo App">
+    <Position X="10.469" Y="0.792" Height="0.292" Width="1.783" />
+  </Comment>
+  <Comment CommentText="Money pattern">
+    <Position X="5.75" Y="0.771" Height="0.292" Width="3.762" />
+  </Comment>
+  <Comment CommentText="Product + Money">
+    <Position X="3.76" Y="0.771" Height="0.292" Width="1.783" />
+  </Comment>
+  <Comment CommentText="Type-Safe Enum pattern">
+    <Position X="7.74" Y="2.583" Height="0.292" Width="1.783" />
+  </Comment>
+  <Class Name="MoneyPattern.Money">
+    <Position X="5.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAACAAAAAAQABAAAAAAAA=</HashCode>
+      <FileName>Money.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyPattern.MoneyExtensions">
+    <Position X="7.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoneyExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyPattern.Product">
+    <Position X="3.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAAAAAAAAAAgAAAQAAAAAEAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyPattern.Program">
+    <Position X="10.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyPattern.CurrencyOf" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.75" />
+    <NestedTypes>
+      <Class Name="MoneyPattern.CurrencyOf.GEL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.COU" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.INR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SBD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SDG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XBD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ALL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XTS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.DZD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.JPY" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.EUR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BZD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KZT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.NZD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TJS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MUR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MXN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SVC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CZK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.RON" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ANG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.RUB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TTD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.NPR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CUP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.STD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CVE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KMF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MRO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BSD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.EGP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.WST" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.USD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.RSD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CHF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GMD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AMD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BMD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BAM" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TMT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XAF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AOA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.JMD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XBB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XSU" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GBP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.LBP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MDL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MMK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XUA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BHD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ARS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.RWF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ETB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GIP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GHS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KES" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ILS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KWD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TWD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CLF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MWK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.HNL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CAD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.VUV" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MAD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.NAD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.LRD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BGN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.NGN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.OMR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.HTG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PEN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XOF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.LAK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SRD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.HRK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CUC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XXX" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.LYD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SSP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KYD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KHR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.THB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.VEF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MKD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.HKD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.DKK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AZN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ISK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MZN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AED" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GYD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PHP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KGS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SHP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MGA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XAG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BTN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BOV" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.UYI" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BWP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.IRR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SOS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.QAR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MXV" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SAR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PAB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TRY" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ZAR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SEK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AWG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BYR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CHE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.DJF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MYR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KPW" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.USN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XBA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.JOD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.LKR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XBC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CLP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CDF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.NOK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PKR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.FJD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GTQ" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BRL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SYP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.FKP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.UGX" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MVR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BDT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PYG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XAU" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.YER" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.IQD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.UAH" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AFN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.GNF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.UYU" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ERN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BOB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XCD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MNT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.NIO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BND" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SZL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.DOP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TND" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.VND" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.COP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.MOP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ZWL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PLN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TOP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.AUD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.ZMW" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CRC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.KRW" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CHW" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.IDR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.HUF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.UZS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XPF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.CNY" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XDR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SLL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SGD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.LSL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XPT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.TZS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BIF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.SCR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.XPD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.BBD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MoneyPattern.CurrencyOf.PGK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CurrencyOf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>jR6naPvtk1gYt74GHgmMlgp6xal6zcMx4mG2V2+wJn8=</HashCode>
+      <FileName>CurrencyOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
